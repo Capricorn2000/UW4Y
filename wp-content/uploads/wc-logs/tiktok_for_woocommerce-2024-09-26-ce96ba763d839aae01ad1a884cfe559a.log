@@ -1,0 +1,27 @@
+2024-09-26T02:57:43+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_66f4cda703b52httplocalhost8081wordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost:8081\/wordpress\/wp-admin\/"}
+ ajax: no
+2024-09-26T02:57:43+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240926025742CD6107C4D0486FA65DCD,20240926025742CD6107C4D0486FA65DCD
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=60
+x-tt-trace-host: 01d855d56e25fb1782751cbea3f21c30cbd1aff50da10e0f85e6d994bb8da245210bedde6054f42147fed3ab717c66483a1fa9b07beb2cd48dd98edb520e34e1c7e71608aedd3980853e75b0f947ea4913eabb92b5b8d74a8a89e04390aef79f34
+x-tt-trace-id: 00-240926025742CD6107C4D0486FA65DCD-07E07D606D1FC937-00
+Server: TLB
+Content-Encoding: gzip
+Date: Thu, 26 Sep 2024 02:57:43 GMT
+Content-Length: 210
+X-Cache: TCP_MISS from a113-171-12-182.deploy.akamaitechnologies.com (AkamaiGHost/11.6.4-e26983a004e229b4ffa935b6e3b2fe8f) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=112
+X-Origin-Response-Time: 112,113.171.12.182
+X-Akamai-Request-ID: 9841bc7
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost:8081\/wordpress\/wp-admin\/","app_secret":"4978c9ea504b3f5adb5c102fee95178f694c6208","external_data_key":"464e4eff-9b5d-4867-9d07-f44ee2ccbee4","app_id":"7418780605002809352"}}
+
